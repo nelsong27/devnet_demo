@@ -7,3 +7,4 @@ ntp_server { '10.20.5.6':
   prefer => false,
   ensure => 'present',
   }
+ }
