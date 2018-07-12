@@ -4,7 +4,7 @@ ntp_server { '1.2.3.4':
   ensure => 'present',
 }
 ntp_server { '10.20.5.6':
-  prefer => true,
+  prefer => false,
   ensure => 'present',
   }
  }
