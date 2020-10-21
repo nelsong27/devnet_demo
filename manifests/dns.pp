@@ -1,5 +1,6 @@
 class devnet_demo::dns {
 ios_network_dns {
+  name   => 'settings',
   ensure => 'present',
   domain => 'puppet.com',
   search => 'puppet.com',
