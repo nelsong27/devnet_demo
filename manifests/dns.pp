@@ -4,7 +4,7 @@ ios_network_dns { 'settings':
   ensure => 'present',
   domain => 'puppet.com',
   search => 'puppet.com',
-  servers => 'dnsserver1.puppet.com,dnsserver2.puppet.com',
+  servers => [ 'serverone', 'servertwo', 'serverthree' ]
  }
  
 }
