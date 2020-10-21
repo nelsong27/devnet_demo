@@ -1,7 +1,6 @@
 class devnet_demo::config {
-ios_config { 'default':
-       name   => 'default',
+ios_config { 'changebanner':
        command => 'banner motd #changed#',
-       command_mode => 'CONF_T',
+       idempotent_regex => 'banner motd #changed#'
      }
  }
